@@ -17,4 +17,4 @@ Converts a morse character e.g ".-" to the English equivalant 'A'.
 
 ## readableToMorseChar - returns a String
 
-Converts an English character e.g 'A' to the English equivalant '.-'.
+Converts an English character e.g 'A' to the morse equivalant '.-'.
