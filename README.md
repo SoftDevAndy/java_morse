@@ -7,14 +7,14 @@ Very simple, quick project, do with it what you want.
 
 Takes a paragraph of text and converts it to morse.
 
-## translateRawMorse
+## translateRawMorse - returns a String
 
 Takes a paragraph of morse and converts it to English.
 
-## morseCharToReadable
+## morseCharToReadable - returns a Character
 
 Converts a morse character e.g ".-" to the English equivalant 'A'.
 
-## readableToMorseChar
+## readableToMorseChar - returns a String
 
 Converts an English character e.g 'A' to the English equivalant '.-'.
