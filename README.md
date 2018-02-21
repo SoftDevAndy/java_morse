@@ -1,4 +1,4 @@
-# java_morse
+# morsecode
 
 Tiny Java project to convert text to morse and morse to text. Very simple, quick project, do with it what you want.
 
