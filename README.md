@@ -1,20 +1,28 @@
 # java_morse
 
-Tiny Java project to convert text to morse and morse to text. Created this playing around on some hobby projects.
-Very simple, quick project, do with it what you want.
+Tiny Java project to convert text to morse and morse to text. Very simple, quick project, do with it what you want.
 
-## translateToMorse - returns a String
+## Command Line Arguments Usage
 
-Takes a paragraph of text and converts it to morse.
+-help Outputs: 
+```
+Help and Usage
+-seperator / -encrypt "THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG"
+-seperator /-unencrypt "- .... . / --.- ..- .. -.-. -.- / -... .-. --- .-- -. / ..-. --- -..- / .--- ..- -- .--. ... / --- ...- . .-. / - .... . / .-.. .- --.. -.-- / -.. --- --."
+-replace / # "- .... . / --.- ..- .. -.-. -.- / -... .-. --- .-- -. / ..-. --- -..- / .--- ..- -- .--. ... / --- ...- . .-. / - .... . / .-.. .- --.. -.-- / -.. --- --."
 
-## translateRawMorse - returns a String
+```
+-SEPERATOR Replaces the default '/' seperator with your own if it's not following the common convention.
+```
+-SEPERATOR #
+```
 
-Takes a paragraph of morse and converts it to English.
+-ENCRYPT Encrypts plaintext using the 
+```
+-ENCRYPT "THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG"
+```
 
-## morseCharToReadable - returns a Character
-
-Converts a morse character e.g ".-" to the English equivalant 'A'.
-
-## readableToMorseChar - returns a String
-
-Converts an English character e.g 'A' to the morse equivalant '.-'.
+-UNENCRYPT Unencrypts Morse that uses the '/' to denote spaces. If you wish to use a different seperator see the seperator tags.
+```
+-UNENCRYPT "- .... . / --.- ..- .. -.-. -.- / -... .-. --- .-- -. / ..-. --- -..- / .--- ..- -- .--. ... / --- ...- . .-. / - .... . / .-.. .- --.. -.-- / -.. --- --."
+```
