@@ -10,8 +10,8 @@ Help and Usage
 -seperator / -encrypt "THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG"
 -seperator /-unencrypt "- .... . / --.- ..- .. -.-. -.- / -... .-. --- .-- -. / ..-. --- -..- / .--- ..- -- .--. ... / --- ...- . .-. / - .... . / .-.. .- --.. -.-- / -.. --- --."
 -replace / # "- .... . / --.- ..- .. -.-. -.- / -... .-. --- .-- -. / ..-. --- -..- / .--- ..- -- .--. ... / --- ...- . .-. / - .... . / .-.. .- --.. -.-- / -.. --- --."
-
 ```
+
 -SEPERATOR Replaces the default '/' seperator with your own if it's not following the common convention.
 ```
 -SEPERATOR #
@@ -25,4 +25,10 @@ Help and Usage
 -UNENCRYPT Unencrypts Morse that uses the '/' to denote spaces. If you wish to use a different seperator see the seperator tags.
 ```
 -UNENCRYPT "- .... . / --.- ..- .. -.-. -.- / -... .-. --- .-- -. / ..-. --- -..- / .--- ..- -- .--. ... / --- ...- . .-. / - .... . / .-.. .- --.. -.-- / -.. --- --."
+```
+
+-REPLACE Replaces the delimitter character with your own and outputs the still ciphered text with the new delimitter.
+
+```
+-REPLACE / # "- .... . / --.- ..- .. -.-. -.- / -... .-. --- .-- -. / ..-. --- -..- / .--- ..- -- .--. ... / --- ...- . .-. / - .... . / .-.. .- --.. -.-- / -.. --- --."
 ```
