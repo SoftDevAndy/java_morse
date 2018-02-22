@@ -2,6 +2,26 @@
 
 Tiny Java project to convert text to morse and morse to text. Very simple, quick project, do with it what you want.
 
+## Sample Usage and Output 
+
+```
+C:\>java -jar morse.jar -encrypt "Awesomesauce"
+
+.- .-- . ... --- -- . ... .- ..- -.-. . /
+
+C:\>java -jar morse.jar -unencrypt ".- .-- . ... --- -- . ... .- ..- -.-. . /"
+
+AWESOMESAUCE
+
+C:\>java -jar morse.jar -replace / , ".- .-- . ... --- -- . ... .- ..- -.-. . /"
+
+.- .-- . ... --- -- . ... .- ..- -.-. . ,
+
+C:\>java -jar morse.jar -seperator , -unencrypt ".- .-- . ... --- -- . ... .- ..- -.-. . ,"
+
+AWESOMESAUCE
+```
+
 ## Command Line Arguments Usage
 
 **-help** Outputs: 
