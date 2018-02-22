@@ -50,21 +50,19 @@ public class MorseTool{
 				
 				/* Arguments */
 				
-				if(sepPos == count){						
+				if(sepPos == count)						
 					Setup(arg.charAt(0) + "");
-					System.out.println("-seperator set as " + arg.charAt(0));
-				}			
 				
 				if(encryptPos == count){	
 					Setup(seperator);
 					String result = encrypt(arg);
-					System.out.println(result);
+					System.out.println("\n" + result);
 				}		
 				
 				if(decryptPos == count){	
 					Setup(seperator);
 					String result = unencrypt(arg);
-					System.out.println(result);
+					System.out.println("\n" + result);
 				}		
 				
 				if(replacePos == count){						
@@ -72,7 +70,7 @@ public class MorseTool{
 					if(count + 3 >= args.length){	
 						Setup(seperator);						
 						String result = replaceSeperatorChar(args[count + 2], args[count + 1], args[count]);
-						System.out.println(result);
+						System.out.println("\n" + result);
 					}
 				}	
 			}
